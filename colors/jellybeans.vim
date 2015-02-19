@@ -410,6 +410,17 @@ hi! link phpVarSelector Identifier
 
 hi! link pythonOperator Statement
 
+" XML
+
+call s:X("xmlTag","fad07a","","","Yellow","")
+call s:X("xmlEndTag","fad07a","","","Yellow","")
+
+" HTML Highlighting
+
+call s:X("htmlTag","fad07a","","","Yellow","")
+call s:X("htmlTagName","fad07a","","","Yellow","")
+call s:X("htmlEndTag","fad07a","","","Yellow","")
+
 " Ruby
 
 hi! link rubySharpBang Comment
